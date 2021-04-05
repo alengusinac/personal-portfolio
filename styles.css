@@ -24,12 +24,14 @@ img {
 
 header {
     position: fixed;
+    background-color: white;
     height: 150px;
     width: 100%;
     border-bottom: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    z-index: 10;
 }
 
 header nav a {
