@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+html {
+    
+}
+/*--HEADER--*/
+
+header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+/*--BANNER--*/
+
+/*--PROJECTS--*/
+
+/*--FOOTER--*/
