@@ -71,7 +71,7 @@ header nav a {
     flex-wrap: wrap;
     width: 900px;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .card {
@@ -89,5 +89,21 @@ header nav a {
     height: 100px;
     
 }
+
+/*--SKILLS--*/
+
+.skills {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+
+}
+
+.skills img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
 
 /*--FOOTER--*/
