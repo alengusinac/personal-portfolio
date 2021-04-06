@@ -10,7 +10,8 @@ html {
     
 }
 
-section {
+section,
+footer {
     position: relative;
     top: 150px;
 }
@@ -34,12 +35,18 @@ header {
     z-index: 10;
 }
 
-header nav a {
+nav a {
     margin: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
 /*--BANNER--*/
 
 .banner {
@@ -107,3 +114,12 @@ header nav a {
 
 
 /*--FOOTER--*/
+
+footer {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
