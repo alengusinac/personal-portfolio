@@ -6,9 +6,6 @@
     text-align: center;
 }
 
-html {
-    
-}
 
 section,
 footer {
@@ -108,6 +105,10 @@ nav a {
     width: 150px;
     height: 150px;
     margin: 30px;
+}
+
+.contact {
+    width: 1200px;
 }
 
 
